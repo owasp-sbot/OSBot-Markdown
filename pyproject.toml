@@ -1,6 +1,6 @@
 [tool.poetry]
 name        = "osbot_markdown"
-version     = "v0.0.2"
+version     = "v0.1.1"
 description = "OWASP Security Bot - LLM"
 authors     = ["Dinis Cruz <dinis.cruz@owasp.org>"]
 license     = "MIT"
