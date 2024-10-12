@@ -1,0 +1,17 @@
+name: "run-tests"
+description: "run-tests"
+
+runs:
+  using: "composite"
+  steps:
+
+    - name: Install dependencies
+      shell: bash
+      run: |
+        # python -m pip install --upgrade pip
+        pip install -r requirements.txt
+
+    - name: Run tests with pytest (with coverage)
+      shell: bash
+      run: |
+        coverage run --source=osbot_markdown -m pytest -v -s --durations=0 tests

@@ -1,4 +1,4 @@
-# OSBot__Repo_Template
+# OSBot__Markdown
 
 ## Repo details
 
