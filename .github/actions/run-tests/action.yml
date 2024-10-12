@@ -5,6 +5,9 @@ runs:
   using: "composite"
   steps:
 
+    - name: Install Python 3.x
+      uses: actions/setup-python@v5
+
     - name: Install dependencies
       shell: bash
       run: |
